@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Header = () => {
 	return (
-		<head className="flex gap-2 justify-between items-center bg-secondary_color py-4 px-8">
+		<head className="flex gap-2 justify-between items-center bg-orange_color py-4 px-8 fixed w-full">
 			<Link
-				className="text-primary_color font-bold text-2xl"
+				className="text-green_color font-bold text-2xl"
 				href=""
 			>
 				Pizza GREEN
@@ -16,7 +16,7 @@ const Header = () => {
 				<Link href={""}>About</Link>
 				<Link href={""}>Contact</Link>
 				<Link
-					className="bg-primary_color text-white py-1 px-5 rounded-md text-base"
+					className="bg-green_color text-white py-1 px-5 rounded-full text-base"
 					href={""}
 				>
 					Login
