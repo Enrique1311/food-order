@@ -1,11 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import RedBtn from "./RedBtn";
+import GrayBtn from "./GrayBtn";
 
 const Header = () => {
 	return (
-		<head className="flex gap-2 justify-between items-center bg-orange_color py-4 px-8 fixed w-full">
+		<head className="flex gap-2 justify-between items-center bg-orange_color py-4 px-8 fixed w-full z-10">
 			<Link
-				className="text-green_color font-bold text-2xl"
+				className="text-red_color font-bold text-2xl"
 				href=""
 			>
 				Pizza GREEN
@@ -15,11 +17,13 @@ const Header = () => {
 				<Link href={""}>Menu</Link>
 				<Link href={""}>About</Link>
 				<Link href={""}>Contact</Link>
-				<Link
-					className="bg-green_color text-white py-1 px-5 rounded-full text-base"
-					href={""}
-				>
-					Login
+			</nav>
+			<nav className="flex gap-2">
+				<Link href={"/login"}>
+					<RedBtn>Login</RedBtn>
+				</Link>
+				<Link href="/register">
+					<GrayBtn>Register</GrayBtn>
 				</Link>
 			</nav>
 		</head>

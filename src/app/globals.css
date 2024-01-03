@@ -3,15 +3,5 @@
 @tailwind utilities;
 
 .section-container {
-	@apply pt-1 pb-10 px-1 md:px-6 lg:px-10;
-}
-
-.red-btn {
-	@apply flex justify-center items-center font-bold gap-2 bg-red_color text-white uppercase py-2 px-4 rounded-full;
-	@apply hover:scale-110 transition-all;
-}
-
-.gray-btn {
-	@apply flex justify-center items-center font-bold gap-2 bg-transparent border-2 border-gray_color text-gray_color py-2 px-4 rounded-full;
-	@apply hover:scale-110 transition-all;
+	@apply px-4 py-8 md:px-8  lg:px-10;
 }

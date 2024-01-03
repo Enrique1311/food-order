@@ -1,11 +1,13 @@
-import Header from "./components/layout/Header";
-import Hero from "./components/layout/Hero";
+import HomeMenu from "@/components/HomeMenu";
+import Hero from "../components/Hero";
+import About from "@/components/About";
 
 export default function Home() {
 	return (
 		<>
-			<Header />
 			<Hero />
+			<HomeMenu />
+			<About />
 		</>
 	);
 }

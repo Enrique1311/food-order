@@ -1,12 +1,12 @@
-import Image from "next/image";
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
+import RedBtn from "./RedBtn";
+import GrayBtn from "./GrayBtn";
 
 const Hero = () => {
 	return (
-		<section className="section-container flex flex-col justify-center items-center gap-4 mt-14 md:flex-row md:gap-10">
+		<section className="section-container flex flex-col justify-center items-center gap-6 mt-10 md:flex-row md:gap-10">
 			<div className="flex flex-col justify-start w-4/5 mt-20 md:w-1/3 md:mt-10">
-				{" "}
 				<h1 className="text-5xl font-bold">
 					Everything
 					<br /> is better
@@ -17,20 +17,19 @@ const Hero = () => {
 					delicious joy in life.
 				</p>
 				<div className="flex flex-wrap gap-4">
-					{" "}
-					<button className="red-btn">
+					<RedBtn>
 						Order now
 						<FaArrowRight />
-					</button>
-					<button className="gray-btn">
+					</RedBtn>
+					<GrayBtn className="gray-btn">
 						Learn more
 						<FaArrowRight />
-					</button>
+					</GrayBtn>
 				</div>
 			</div>
 			<img
 				className="w-3/4 py-2 md:w-2/5 md:py-10"
-				src="/hero_pizza.png"
+				src="/pizza.png"
 				alt="pizza"
 			/>
 		</section>

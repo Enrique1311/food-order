@@ -8,10 +8,10 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				green_color: "#219C90",
-				orange_color: "#FFCC70",
 				red_color: "#D83F31",
+				orange_color: "#FFCC70",
 				gray_color: "#61677A",
+				light_gray_color: "#DDE6ED",
 			},
 		},
 	},
