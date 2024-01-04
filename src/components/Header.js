@@ -10,10 +10,10 @@ const Header = () => {
 				className="text-red_color font-bold text-2xl"
 				href=""
 			>
-				Pizza GREEN
+				New Pizza
 			</Link>
 			<nav className="flex justify-between gap-8 text-gray_color text-xl">
-				<Link href={""}>Home</Link>
+				<Link href={"/"}>Home</Link>
 				<Link href={""}>Menu</Link>
 				<Link href={""}>About</Link>
 				<Link href={""}>Contact</Link>
